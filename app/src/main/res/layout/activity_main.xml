@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/keys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top_bar">
+
+            <LinearLayout
+                android:id="@+id/white_keys"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/C"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/D"
+                    style="@style/whiteKeys"
+                    android:layout_width="wrap_content" />
+
+                <Button
+                    android:id="@+id/E"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/F"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/G"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/A"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/H"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/C2"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/D2"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/E2"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/F2"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/G2"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/A2"
+                    style="@style/whiteKeys" />
+
+                <Button
+                    android:id="@+id/H2"
+                    style="@style/whiteKeys" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/back_keys"
+                android:layout_width="match_parent"
+                android:layout_height="120sp">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/Cis"
+                    style="@style/blackKeys" />
+
+                <Button
+                    android:id="@+id/Dis"
+                    style="@style/blackKeys" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+                <Button
+                    android:id="@+id/Fis"
+                    style="@style/blackKeys" />
+
+                <Button
+                    android:id="@+id/Gis"
+                    style="@style/blackKeys" />
+
+                <Button
+                    android:id="@+id/B"
+                    style="@style/blackKeys" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/Cis2"
+                    style="@style/blackKeys" />
+
+                <Button
+                    android:id="@+id/Dis2"
+                    style="@style/blackKeys" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" />
+
+                <Button
+                    android:id="@+id/Fis2"
+                    style="@style/blackKeys" />
+
+                <Button
+                    android:id="@+id/Gis2"
+                    style="@style/blackKeys" />
+
+                <Button
+                    android:id="@+id/B2"
+                    style="@style/blackKeys" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
